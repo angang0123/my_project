@@ -57,7 +57,7 @@ Here are the brief steps for Rixml contribution:
 
 <img src="/Rixml/images/sftp.png" width="500" height="300" />
 
-3. Rixml system parses the file and publish the report to Bloomberg terminal.
+3. Rixml system parses the file and publish the report to xxx terminal.
 
 <img src="/Rixml/images/bbg.png" width="500" height="300" />
 
@@ -66,7 +66,7 @@ Here are the brief steps for Rixml contribution:
 
 ## What is in Rixml
 
-Rixml (.xml) file in our system is also called "control file", because it controls how our system publishes the report (to which channel) and what is about this report (for searching purpose).
+Rixml (.xml) file in xxx system is also called "control file", because it controls how our system publishes the report (to which channel) and what is about this report (for searching purpose).
 
 Here's a Rixml sample file in a folded view:
 
@@ -90,9 +90,8 @@ Whoever adopts Rixml must put the corresponding information in the right section
 Here's a sample Rixml file structure in a tree graph overview:
 ![Rixml Tree2](/Rixml/images/rixml_tree2.PNG)
 
-You may check the "Sample" folder to find more sample rixml files in this repository. Also a tool is provided for you to quickly generate a rixml file that is acceptable by our rixml system (with all the important fields available), feel free to have a try.
-For more details about the available fields, please refer to Rixml data dictionary.
-Just be careful that **our system doesn't parse all fields provided in data dictionary so far. And there are some known issues for our rixml parser.** If you have any question, please check with related contribution CAMs or engineers.
+You may check the ["Sample"](/Rixml/Samples) folder to find more sample rixml files in this repository. Also a tool is provided for you to quickly generate a rixml file that is acceptable by our rixml system (with all the important fields available), feel free to have a try.
+(information hiden)
 
 [Back to top](#a-brief-introduction-of-rixml)
 
@@ -105,24 +104,7 @@ Just be careful that **our system doesn't parse all fields provided in data dict
 3. It requires brokers to automate their publication action (minimize human error), and data we receive could be automatically processed as well.
 4. It is secure (double authorization check), and it is fast (SFTP protocal).
 
-
-
-- **General workflow to migrate a broker to Rixml contribution:**
-1. Check with broker to see if they are willing to migrate to this method (also capability to develop their rixml contribution system);
-2. Get in touch with their developer team (or IT team), introduce the rixml framework;
-3. When they start to develop their system, contribution CAMs will create a SFTP login for this broker and raise DRQS to add this login to rixml parser (e.g. {DRQS 1084268})
-4. Contribution CAMs create a test class/package for the broker, and broker starts to test their rixml contribution;
-5. Troubleshoot and coordinate with broker till there's no issue;
-6. Turn to PROD.
-
-- **Rixml tag:**
-
-Any report is uploaded via Rixml will be tagged with "RIXML" NI code in our system. You could easily identify it in "Story Maintenance" -> "assigned code" (higlighted in the screenshot below).
-
-<img src="/Rixml/images/rixml_tag.PNG" width="800" height="500" />
-
-It also means, you could use "rixml" as keyword to filter reports submitted via rixml in function {BRC} or {NH}, etc.
-
+(information hiden)
 
 
 [Back to top](#a-brief-introduction-of-rixml)
