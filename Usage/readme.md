@@ -39,7 +39,7 @@ Three major sections (see screenshot below):
 *	Visual tabs: change views by clicking the tab.
 *	Main view: view and other interactive tool section.
 
-![Sections](/Screenshots/6.jpg)
+![Sections](/Usage//Screenshots/6.jpg)
 
 ### Reads Trend
 
