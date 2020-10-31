@@ -22,7 +22,7 @@ This tutorial will walk you through the basic concepts of Rixml and how Rixml wo
 [Back to top](#a-brief-introduction-of-rixml)
 
 
-## How our Rixml system works
+## How xx Rixml system works
 
 **I will use a daily life example to help you understand.**
 
@@ -30,7 +30,7 @@ Think about how you send an object to a friend in another country, what you need
 
 1. pack the object into a parcel and fill required information on the delivery sheet.
 
-<img src="/Images/sheet.png" width="500" height="300" />
+<img src="/my_prject/Rixml/images/sheet.png" width="500" height="300" />
 
 2. submit your parcel to the delivery company.
 
@@ -61,7 +61,7 @@ Here are the brief steps for Rixml contribution:
 
 <img src="/Images/bbg.png" width="500" height="300" />
 
-[Back to top](#rixml-introduction-internal-only)
+[Back to top](#a-brief-introduction-of-rixml)
 
 
 ## What is in Rixml
@@ -94,7 +94,7 @@ You may check the "Sample" folder to find more sample rixml files in this reposi
 For more details about the available fields, please refer to Rixml data dictionary.
 Just be careful that **our system doesn't parse all fields provided in data dictionary so far. And there are some known issues for our rixml parser.** If you have any question, please check with related contribution CAMs or engineers.
 
-[Back to top](#rixml-introduction-internal-only)
+[Back to top](#a-brief-introduction-of-rixml)
 
 
 ## Some more to know 
@@ -125,8 +125,8 @@ It also means, you could use "rixml" as keyword to filter reports submitted via 
 
 
 
-[Back to top](#rixml-introduction-internal-only)
+[Back to top](#a-brief-introduction-of-rixml)
 
 
 
->Created by West Wang, 2020 Oct
+>Created by West Wang
