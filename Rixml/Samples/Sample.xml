@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Research xmlns="http://www.rixml.org/2010/1/RIXML" createDateTime="2020-10-12T12:00:00Z" language ="eng" researchID="0">
+    <Product productID="7055475153342402" sequence="1">
+        <StatusInfo currentStatusIndicator="Yes" statusDateTime="2018-01-01T12:00:00Z" statusType="Published"/>
+        <Source>
+            <OrganizationID idType="Bloomberg">2108</OrganizationID>
+            <Organization primaryIndicator="Yes" type="SellSideFirm" sequence="1">
+                <PersonGroup>
+                    <PersonGroupMember primaryIndicator="Yes" role="Author" sequence="1">
+                        <Person personID="?">
+                            <FamilyName>Wang</FamilyName>
+                            <GivenName>West</GivenName>
+                            <ContactInfo nature="Business">
+                                <Email>***@bloomberg.net</Email>
+                            </ContactInfo>
+                        </Person>
+                    </PersonGroupMember>
+                    <PersonGroupMember primaryIndicator="No" role="Author" sequence="2">
+                        <Person personID="?">
+                            <FamilyName>Tan</FamilyName>
+                            <GivenName>Leroy</GivenName>
+                            <ContactInfo nature="Business">
+                                <Email>***@bloomberg.net</Email>
+                            </ContactInfo>
+                        </Person>
+                    </PersonGroupMember>
+                </PersonGroup>
+            </Organization>
+        </Source>
+        <Content>
+            <Title>
+                <![CDATA[Rixml Sample Story]]>
+            </Title>
+            <Abstract>
+                <![CDATA[This is the summary]]>
+            </Abstract>
+            <Resource resourceID="0000" language ="eng"  primaryIndicator="Yes" sequence="1">
+                <MIMEType>application/pdf</MIMEType>
+                <Name>
+                    <![CDATA[Sample.pdf]]>
+                </Name>
+            </Resource>
+        </Content>
+        <Context external="Yes">
+            <IssuerDetails>
+                <Issuer primaryIndicator="Yes" issuerType="Corporate">
+                    <SecurityDetails>
+                        <Security primaryIndicator="Yes" ratingAction="Reiterate">
+                            <SecurityID idType="Bloomberg" idValue="600519 CH"/>
+                            <SecurityFinancials priorCurrent="Current" securityFinancialsType="TargetPrice">
+                                <Currency>CNY</Currency>
+                                <FinancialValue estimateActual="Estimate">1830</FinancialValue>
+                            </SecurityFinancials>
+                            <Rating rating="PublisherDefined" priorCurrent="Current">
+                                <PublisherDefinedValue>Buy</PublisherDefinedValue>
+                                <RatingEntity ratingEntity="Publisher"/>
+                            </Rating>
+                        </Security>
+                    </SecurityDetails>
+                </Issuer>
+                <Issuer primaryIndicator="Yes" issuerType="Corporate">
+                    <SecurityDetails>
+                        <Security primaryIndicator="Yes" ratingAction="Reiterate">
+                            <SecurityID idType="Bloomberg" idValue="700 HK"/>
+                            <SecurityFinancials priorCurrent="Current" securityFinancialsType="TargetPrice">
+                                <Currency>HKD</Currency>
+                                <FinancialValue estimateActual="Estimate">651</FinancialValue>
+                            </SecurityFinancials>
+                            <Rating rating="PublisherDefined" priorCurrent="Current">
+                                <PublisherDefinedValue>Buy</PublisherDefinedValue>
+                                <RatingEntity ratingEntity="Publisher"/>
+                            </Rating>
+                        </Security>
+                    </SecurityDetails>
+                </Issuer>
+            </IssuerDetails>
+            <ProductDetails periodicalIndicator="No" publicationDateTime="2018-01-01T12:00:00Z">
+                <ProductCategory productCategory="Compilation"/>
+                <ProductFocus focus="" primaryIndicator="Yes"/>
+                <EntitlementGroup>
+                    <Entitlement includeExcludeIndicator="Include" primaryIndicator="Yes" sequence="1">
+                        <AudienceTypeEntitlement audienceType="PublisherDefined" entitlementContext="Bloomberg">BLOOMBERG_CLASS=56</AudienceTypeEntitlement>
+                    </Entitlement>
+                </EntitlementGroup>
+            </ProductDetails>
+            <ProductClassifications>
+                <AssetClass assetClass="FixedIncome"/>
+                <Country code="HK" primaryIndicator="Yes"/>
+                <Region regionType="AsiaExJapan" primaryIndicator="Yes"/>
+                <AssetType assetType="Equity"/>
+                <Discipline disciplineType="Investment" researchApproach="Fundamental"/>
+                <SectorIndustry code="45" level="1" classificationType="GICS" primaryIndicator="Yes"/>
+            </ProductClassifications>
+        </Context>
+    </Product>
+</Research>
