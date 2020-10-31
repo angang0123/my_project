@@ -1,6 +1,6 @@
 # A brief introduction of Rixml
 
-This tutorial will walk you through the basic concepts of Rixml and how Rixml works for research contributor on Bloomberg. Useful references are also provided for further learning. Some information is hidden due to compliance concern.
+This tutorial will walk you through the basic concepts of Rixml and how Rixml works. Useful references are also provided for further learning. Some information is hidden due to compliance concern.
 
 **Contents (click to quickly move to the section):**
 
@@ -19,7 +19,7 @@ This tutorial will walk you through the basic concepts of Rixml and how Rixml wo
 3. It is an industrial standard now. More information is available on [https://www.rixml.org/](https://www.rixml.org/)
 
 
-[Back to top](#rixml-introduction-internal-only)
+[Back to top](#a-brief-introduction-of-rixml)
 
 
 ## How our Rixml system works
