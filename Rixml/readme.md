@@ -30,15 +30,15 @@ Think about how you send an object to a friend in another country, what you need
 
 1. pack the object into a parcel and fill required information on the delivery sheet.
 
-<img src="/my_prject/Rixml/images/sheet.png" width="500" height="300" />
+<img src="/Rixml/images/sheet.png" width="500" height="300" />
 
 2. submit your parcel to the delivery company.
 
-<img src="/Images/delivering.jpg" width="500" height="300" />
+<img src="/Rixml/images/delivering.jpg" width="500" height="300" />
 
 3. parcel delivered to your friend.
 
-<img src="/Images/delivered.jpg" width="500" height="300" />
+<img src="/Rixml/images/delivered.jpg" width="500" height="300" />
 
 
 Now you could think the Rixml contribution process as deliver the object (like above).
@@ -46,20 +46,20 @@ Now you could think the Rixml contribution process as deliver the object (like a
 * The object to deliver is the research report;
 * The delivery sheet is the Rixml (.xml) file;
 * The delivery company is our SFTP server;
-* The friend is Bloomberg terminal.
+* The friend is xxx terminal.
 
 Here are the brief steps for Rixml contribution:
 1. get the report file ready and create the according Rixml file.
 
-<img src="/Images/rixml.PNG" width="500" height="300" />
+<img src="/Rixml/images/rixml-hide.jpg" width="500" height="300" />
 
 2. Connect to research sftp host/server, submit the report file and Rixml file.
 
-<img src="/Images/sftp.png" width="500" height="300" />
+<img src="/Rixml/images/sftp.png" width="500" height="300" />
 
 3. Rixml system parses the file and publish the report to Bloomberg terminal.
 
-<img src="/Images/bbg.png" width="500" height="300" />
+<img src="/Rixml/images/bbg.png" width="500" height="300" />
 
 [Back to top](#a-brief-introduction-of-rixml)
 
@@ -70,7 +70,7 @@ Rixml (.xml) file in our system is also called "control file", because it contro
 
 Here's a Rixml sample file in a folded view:
 
-![Rixml Tree](/Images/rixml_tree.PNG)
+![Rixml Tree](/Rixml/images/rixml_tree.PNG)
 
 Most of the information is included in the "Product" node. And it has four children node:
 - StatusInfo
@@ -88,7 +88,7 @@ Whoever adopts Rixml must put the corresponding information in the right section
 * **Context**: ticker information (symbol, target price, currency, ratings), research type (fundamental, technical, etc), asset class information, country information, sector information, etc...
 
 Here's a sample Rixml file structure in a tree graph overview:
-![Rixml Tree2](/Images/rixml_tree2.PNG)
+![Rixml Tree2](/Rixml/images/rixml_tree2.PNG)
 
 You may check the "Sample" folder to find more sample rixml files in this repository. Also a tool is provided for you to quickly generate a rixml file that is acceptable by our rixml system (with all the important fields available), feel free to have a try.
 For more details about the available fields, please refer to Rixml data dictionary.
@@ -119,7 +119,7 @@ Just be careful that **our system doesn't parse all fields provided in data dict
 
 Any report is uploaded via Rixml will be tagged with "RIXML" NI code in our system. You could easily identify it in "Story Maintenance" -> "assigned code" (higlighted in the screenshot below).
 
-<img src="/Images/rixml_tag.PNG" width="800" height="500" />
+<img src="/Rixml/images/rixml_tag.PNG" width="800" height="500" />
 
 It also means, you could use "rixml" as keyword to filter reports submitted via rixml in function {BRC} or {NH}, etc.
 
