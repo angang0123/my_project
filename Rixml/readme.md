@@ -92,7 +92,7 @@ Here's a sample Rixml file structure in a tree graph overview:
 ![Rixml Tree2](/Rixml/images/rixml_tree2.PNG)
 
 You may check the ["Sample"](/Rixml/Samples) folder to find more sample rixml files in this repository. Also a tool is provided for you to quickly generate a rixml file that is acceptable by our rixml system (with all the important fields available), feel free to have a try.
-(information hiden)
+(information hidden)
 
 [Back to top](#a-brief-introduction-of-rixml)
 
@@ -105,7 +105,7 @@ You may check the ["Sample"](/Rixml/Samples) folder to find more sample rixml fi
 3. It requires brokers to automate their publication action (minimize human error), and data we receive could be automatically processed as well.
 4. It is secure (double authorization check), and it is fast (SFTP protocal).
 
-(information hiden)
+(information hidden)
 
 
 [Back to top](#a-brief-introduction-of-rixml)
