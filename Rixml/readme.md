@@ -88,6 +88,7 @@ Whoever adopts Rixml must put the corresponding information in the right section
 * **Context**: ticker information (symbol, target price, currency, ratings), research type (fundamental, technical, etc), asset class information, country information, sector information, etc...
 
 Here's a sample Rixml file structure in a tree graph overview:
+
 ![Rixml Tree2](/Rixml/images/rixml_tree2.PNG)
 
 You may check the ["Sample"](/Rixml/Samples) folder to find more sample rixml files in this repository. Also a tool is provided for you to quickly generate a rixml file that is acceptable by our rixml system (with all the important fields available), feel free to have a try.
