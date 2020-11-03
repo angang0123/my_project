@@ -48,7 +48,7 @@ On the top level, there are four parts of the app:
 
 This filter will control all the data you are going to analyze via this app. Click on the package you would like to explore by clicking on the name of the item, or select multiple package(s) by holding "ctrl" key on your keyboard and select. In addition, you could use "ctrl" + "A" to select all packages.
 
-<img src="/Entitlement%20SLA%20Analysis%20Tool/images/package_filter.PNG" width="210" height="236"/>
+<img src="/Entitlement%20Analysis%20Tool/images/package_filter.jpg" width="210" height="236"/>
 
 ### Status Analysis tab
 
@@ -70,7 +70,7 @@ In addition, you could click on the bar to select one or a few months (highlight
 
 On the bottom of above screenshot, it shows what percentage of requests is "Expired" for the time period imported (bar month selector doesn't impact it).
 
-![Status2](/Entitlement%20Analysis%20Tool/images/status2.PNG) 
+![Status2](/Entitlement%20Analysis%20Tool/images/status2.jpg) 
 
 This bar chart shows you how the distribution of action days for the status and mont(s) you selected to analyze (also package you select).
 
@@ -87,7 +87,7 @@ This tab shows you how many requests are coming in each month for this contribut
 
 User entitlement request is calculated as count of each individual request each month. Customer entitlement request is calculated as count of request from one customer (only count one each day when they are multiple individual requests from one specific customer) each month.
 
-![request_details](/Entitlement%20Analysis%20Tool/images/request_details.PNG)
+![request_details](/Entitlement%20Analysis%20Tool/images/request_details.jpg)
 
 The bar chart of customer entitlement request is clickable to select month. And you will see the filtered detailed information for those requests in the below table. 
 
