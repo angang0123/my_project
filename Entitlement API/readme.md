@@ -98,7 +98,7 @@ There are two types of requests in general, and their operations are listed belo
 (information hidden)
  
 
-Here's a quick reference for different examples of "path" generation that I compiled for you. You may share it to contributor as well. [Examples of path generation](https://github.com/angang0123/my_project/Entitlement/blob/master/Entitlement%20API/path.md)
+Here's a quick reference for different examples of "path" generation that I compiled for you. You may share it to contributor as well. [Examples of path generation](https://github.com/angang0123/my_project/blob/main/Entitlement%20API/path.md)
 
 Here are something to notice:
 (information hidden)
@@ -119,7 +119,7 @@ You may refer to the API documentation for details, it already contains all nece
 
 ### *Code reference (Python version)
 
-You could find the python code to achieve entitlement API in the [code folder](https://github.com/angang0123/my_project/Entitlement/tree/master/Entitlement%20API/code). 
+You could find the python code to achieve entitlement API in the [code folder](https://github.com/angang0123/my_project/tree/main/Entitlement%20API/code). 
 (information hidden)
 
 ## Test API and go on "live"
