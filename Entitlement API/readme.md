@@ -1,4 +1,4 @@
-# Research Entitlement API Implementation (Internal)
+# Research Entitlement API Implementation
 
 This tutorial is for research contribution CAMs to get to know entitlement API, and help their conversation with contributors who may be interested in adopting entitlement API. I will try to explain all concepts and list detailed instructions in plain words. To keep this tutorial as simple and clean as possible, external links will be used. Please use navigators to switch among sections/pages.
 
@@ -17,7 +17,7 @@ Why should contributors use entitlement API?
 
 (information hidden)
 
-[Back to top](#research-entitlement-api-implementation-internal)
+[Back to top](#research-entitlement-api-implementation)
 
 
 ## Communicate and discuss with contributors
@@ -38,7 +38,7 @@ Why should contributors use entitlement API?
 
 
 
-[Back to top](#research-entitlement-api-implementation-internal)
+[Back to top](#research-entitlement-api-implementation)
 
 
 ## Help contributor access enterprise console
@@ -67,7 +67,7 @@ Contributor needs to do the following:
 
 **VERY IMPORTANT!!** As mentioned earlier, this process will determine how much we could improve for their entitlement workflow and our entitlement SLA!
 
-Contributor could check the API documentation from last step for technical details. I will briefly introduce what contributor needs to do to develope entitlement API: (if you are not interested in the technical details, you may skip the following part and go to the next section directly by clicking [here](#set-up-test-package-and-test-api).
+Contributor could check the API documentation from last step for technical details. I will briefly introduce what contributor needs to do to develope entitlement API: (if you are not interested in the technical details, you may skip the following part and go to the next section directly by clicking [here](#test-api-and-go-on-live).
 
 **Contributor will send a request to our entitlement system and receive a response.** And this communication is done via entitlement API (like a formatted letter).
 
@@ -127,7 +127,7 @@ You could find the python code to achieve entitlement API in the [code folder](h
 (information hidden)
 
 
-[Back to top](#research-entitlement-api-implementation-internal)
+[Back to top](#research-entitlement-api-implementation)
 
 
 > Created by West
