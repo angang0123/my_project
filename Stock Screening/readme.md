@@ -9,3 +9,5 @@ Data are displayed in up to six histogram to see the distribution of the include
 sliders and histogram bars are for filtering stocks, the filtered outcomes are shown in the below table.
 
 ![interface](/Stock%20Screen/images/filter_data.gif)
+
+Dynamically filter stock with interactive charts. 
