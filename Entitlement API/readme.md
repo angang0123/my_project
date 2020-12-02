@@ -65,8 +65,6 @@ Contributor needs to do the following:
 
 ### Develop Entitlement API
 
-**VERY IMPORTANT!!** As mentioned earlier, this process will determine how much we could improve for their entitlement workflow and our entitlement SLA!
-
 Contributor could check the API documentation from last step for technical details. I will briefly introduce what contributor needs to do to develope entitlement API: (if you are not interested in the technical details, you may skip the following part and go to the next section directly by clicking [here](#test-api-and-go-on-live).
 
 **Contributor will send a request to our entitlement system and receive a response.** And this communication is done via entitlement API (like a formatted letter).
